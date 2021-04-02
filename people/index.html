@@ -1,47 +1,174 @@
----
-layout: default
-title: People
----
+<!DOCTYPE html>
+<html>
+<title> Welcome to Spatial Statistics Lab</title>
 
-<div class="blurb">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="/js/includeHTML.js"></script>
+	</head>
+  
+	<style include-html="/style/style.html"></style>
+	<style>
+		.grid-container {
+			display: grid;
+  			grid-template-columns: auto auto auto;
+		}
+		.grid-item {
+			padding: 20px;
+			text-align: center;
+		}
+	</style>
 	
-	<h1> People <br>  </h1>
-	
-	<h2> Professor<br> Chae Young Lim  (임채영) <br></h2>
-					
-	<p style="font-family:Trebuchet MS; font-size=150%" >  
-		Office: Room 334, Building 25<br>
-		Phone: +82-2-880-6552<br>
-		<img src="/lim_files/email.JPG" height="30"> <br>
-                <a href="/lim_files/cv_lim_chaeyoung.pdf" target="_blank">CV</a> <br><br>
-	</p>	
-	
-	<h2> Post-doctoral fellow </h2>
-	<p style="font-family:Trebuchet MS; font-size=150%" >  
-	<li> Dr. Yoonbae Jun (전윤배)</li>
-	</p>	
-	
-	<h2> Graduate Students </h2>
-	<p style="font-family:Trebuchet MS; font-size=150%" >  
-	<li> Mongju Jeong (정몽주, Ph.D. student)</li>
-	<li> Sang Min Jin (진상민, MS. student) </li>
-	<li> Yoonbae Jun (전윤배, Ph.D. student)</li>
-	<li> Kyeoungeun Kim (김경은, Ph.D. student)</li>
-	<li> Songhyun Kim (김송현, Ph.D. student)</li>
-	<li> Joonho Shin (신준호, Ph.D. student)</li>
-        <li>Jin U Soh (소진우, MS. student) </li>
-	<li> Hojun You (유호준, Ph.D. student)</li>
-	</p>		
+	<body class="w3-black">
+
+	    	<!-- Icon Bar (Sidebar - hidden on small screens) -->
+		<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center" include-html="/include/iconbar.html"></nav>
+	    	<!-- Navbar on small screens (Hidden on medium and large screens) -->
+		<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar" include-html="/include/smalliconbar.html"></div>
+
+		<div class="w3-padding-large", id = "main">
 			
-	<h2>	Alumni  </h2>
-	<p style="font-family:Trebuchet MS; font-size=150%" >  
-	<li> 2021: Jin U Soh (소진우, MS), Yoonbae Jun (전윤배, Ph.D.) </li>
-	<li> 2020: Mongju Jeong (정몽주, MS), Hyunseok Yang (양현석, MS), <br>&emsp;&emsp;&emsp;&ensp;&nbsp; Elias Wennberg (MS) </li>
-	<li> 2019: Eunseong Bae (배은성, MS), Kyeoungeun Kim (김경은, MS) </li>
-	<li> 2018: Euntaeg Go (고은택, MS), Yujin Shin (신유진, MS) </li>
-	<li> 2017: Minwoo Kim (김민우, MS), Suk Hwan Kim (김석환, MS) </li>
-	<li> 2014: Xin Qi (Ph.D.)</li>
-	<li> 2011: Wei-Ying Wu (Ph.D.)</li>
-	</p>
-	
-</div><!-- /.blurb -->
+			<h3 class="w3-padding-24 w3-text-light-grey">Professor</h3>  
+			<hr style="width:200px" class="w3-opacity">
+			<a href="/people/chaeyoung/" class="w3-bar-item w3-button w3-padding-large w3-hover-black">    
+				<img src="/people/chaeyoung/files/chaeyoung.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+				<p class="w3-large w3-margin-right" style="width:250px">Chaeyoung Lim</p>
+				<br>
+			</a>
+			
+			<h3 class="w3-padding-24 w3-text-light-grey">Researcher</h3>  
+			<hr style="width:200px" class="w3-opacity">
+			<a href="/people/yoonbae/" class="w3-bar-item w3-button w3-padding-large w3-hover-black">    
+				<img src="/people/yoonbae/files/yoonbae.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+				<p class="w3-large w3-margin-right" style="width:250px"><span>Yoon-Bae Jun<span></p>
+				<p>Post Doctor</p>
+				<br>
+			</a>
+			
+			<h3 class="w3-padding-24 w3-text-light-grey">Students</h3>  
+			<hr style="width:200px" class="w3-opacity">
+			<div class="grid-container">
+				<div class="grid-item">
+					<a href="/publications/" class="w3-bar-item w3-button w3-padding-large w3-hover-black">    
+						<img src="/images/avatar.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+						<p class="w3-large w3-margin-right" style="width:250px"><span>Hojun You<span></p>
+						<p>Ph.D. Student(2015~)</p>
+						<br>
+					</a>
+				</div>
+				<div class="grid-item">
+					<a href="/publications/" class="w3-bar-item w3-button w3-padding-large w3-hover-black">    
+						<img src="/images/avatar.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+						<p class="w3-large w3-margin-right" style="width:250px"><span>Junho Shin<span></p>
+						<p>Ph.D. Student(2016~)</p>
+						<br>
+					</a>
+				</div>
+				<div class="grid-item">
+					<a href="/people/songhyun/" class="w3-bar-item w3-button w3-padding-large w3-hover-black">    
+						<img src="/people/songhyun/files/songhyun.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+						<p class="w3-large w3-margin-right" style="width:250px"><span>Songhyun Kim<span></p>
+						<p>Ph.D. Student(2017~)</p>
+						<br>
+					</a>
+				</div>
+				<div class="grid-item">
+					<a href="/publications/" class="w3-bar-item w3-button w3-padding-large w3-hover-black">    
+						<img src="/people/kyeongeun/files/kyeongeun.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+						<p class="w3-large w3-margin-right" style="width:250px"><span>Kyeongeun Kim<span></p>
+						<p>Ph.D. Student(2019~)</p>
+						<p>MS. (2017~2019)</p>
+						<br>
+					</a>
+				</div>
+				<div class="grid-item">
+					<a href="/publications/" class="w3-bar-item w3-button w3-padding-large w3-hover-black">    
+						<img src="/images/avatar.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+						<p class="w3-large w3-margin-right" style="width:250px"><span>Mongju Jeong<span></p>
+						<p>Ph.D. Student(2020~)</p>
+						<p>MS. (2018~2020)</p>
+						<br>
+					</a>
+				</div>
+				<div class="grid-item">
+					<a href="/publications/" class="w3-bar-item w3-button w3-padding-large w3-hover-black">    
+						<img src="/images/avatar.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+						<p class="w3-large w3-margin-right" style="width:250px"><span>Jinu Soh<span></p>
+						<p>Ph.D. Student(2021~)</p>
+						<p>MS. (2019~2021)</p>
+						<br>
+					</a>
+				</div>
+				<div class="grid-item">
+					<a href="/publications/" class="w3-bar-item w3-button w3-padding-large w3-hover-black">    
+						<img src="/images/avatar.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+						<p class="w3-large w3-margin-right" style="width:250px"><span>Sangmin Jeon<span></p>
+						<p>MS. Student(2020~)</p>
+						<br>
+					</a>
+				</div>
+			</div>
+
+					
+			<h3 class="w3-padding-24 w3-text-light-grey">Alumni</h3>  
+			<hr style="width:200px" class="w3-opacity">
+				
+			<div class="grid-container">
+				<!--
+				<div class="grid-item">
+					<p class="w3-large w3-margin-right" style="width:250px"><span>Wei-Ying Wu<span></p>
+					<p>Ph.D. 2011</p>
+					<p>Associate professor at National Dong Hwa University, Taiwan</p>
+				</div>
+				<div class="grid-item">
+					<p class="w3-large w3-margin-right" style="width:250px"><span>Xin Qi<span></p>
+					<p>Ph.D. 2014</p>
+					<p>AbbVie Inc</p>
+				</div>
+-->
+				<div class="grid-item">
+					<p class="w3-large w3-margin-right" style="width:250px"><span>Sukhwan Kim<span></p>
+					<p>MS. 2017</p>
+					<p>NICE Information Service</p>
+				</div>
+				<div class="grid-item">
+					<p class="w3-large w3-margin-right" style="width:250px"><span>Minwoo Kim<span></p>
+					<p>MS. 2017</p>
+					<p>Ph.D. student in Michigan State University</p>
+				</div>
+				<div class="grid-item">
+					<p class="w3-large w3-margin-right" style="width:250px"><span>Euntaeg Go<span></p>
+					<p>MS. 2018</p>
+					<p>.</p>
+				</div>
+				<div class="grid-item">
+					<p class="w3-large w3-margin-right" style="width:250px"><span>Yujin Shin<span></p>
+					<p>MS. 2018</p>
+					<p>Korea Credit Bureau</p>
+				</div>
+						
+				<div class="grid-item">
+					<p class="w3-large w3-margin-right" style="width:250px"><span>Eunseong Bae<span></p>
+					<p>MS. 2019</p>
+					<p>Ph.D. student in University of California, Davis</p>
+				</div>
+				<div class="grid-item">
+					<p class="w3-large w3-margin-right" style="width:250px"><span>Yang Hyun Seok<span></p>
+					<p>MS. 2020</p>
+					<p>Samsung Electronics</p>
+				</div>
+				<div class="grid-item">
+					<p class="w3-large w3-margin-right" style="width:250px"><span>Elias Wennberg<span></p>
+					<p>MS. 2020</p>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script>
+      		includeHTML();
+	</script>
+</html>
